@@ -1,6 +1,5 @@
 const carrito = document.querySelector("#carrito");
 const fragment = document.createDocumentFragment();
-// const btnsBotones = document.querySelectorAll(".card .btn");
 const orderAcendente = document.querySelector(".ascendente");
 const orderDescendente = document.querySelector(".descendente");
 const frutas = ["Frutilla", "Banana", "Manzana"];
@@ -41,8 +40,6 @@ const pintarCarrito = (producto) => {
 
   carrito.innerHTML = carritoHTML;
 };
-
-// btnsBotones.forEach((btn) => btn.addEventListener("click", agregarAlCarrito));
 
 
 
